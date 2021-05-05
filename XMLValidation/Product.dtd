@@ -4,3 +4,12 @@
 <!ELEMENT ProductName (#PCDATA)>
 <!ELEMENT Description (#PCDATA)>
 <!ATTLIST Product ProductId CDATA #REQUIRED>
+
+
+<!--Mandatory2-->
+<!--<!ELEMENT TestCase (Given, When, Then)>
+<!ELEMENT Given (Text)>
+<!ELEMENT When (Text)>
+<!ELEMENT Then (Text)>
+
+<!ELEMENT Text (#PCDATA)>-->

@@ -21,6 +21,7 @@ namespace XMLValidation
             string text = "";
             if (doc.DocumentElement != null)
             {
+                text += doc.DocumentElement.Name + ":\n  ";
                 foreach (XmlNode node in doc.DocumentElement.ChildNodes)
                 {
                     text += node.Name + ": " + node.InnerText;

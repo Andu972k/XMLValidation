@@ -38,7 +38,7 @@
     <None Include="Product.dtd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Product.xml" />
+    <Content Include="Products.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />

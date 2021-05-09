@@ -1,5 +1,6 @@
 ﻿<!--<!ELEMENT Product (#PCDATA | ProductName| Description)*>-->
 
+<!ELEMENT Products (Product*)>
 <!ELEMENT Product (ProductName, Description)>
 <!ELEMENT ProductName (#PCDATA)>
 <!ELEMENT Description (#PCDATA)>

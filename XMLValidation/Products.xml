@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Products SYSTEM "Product.dtd">
+<Products>
+  <Product ProductId="123">
+    <ProductName>
+      Rugby Jersey
+    </ProductName>
+    <Description>
+      Best Product
+    </Description>
+  </Product>
+  <Product ProductId="321">
+    <ProductName>
+      Rugby Jersey2
+    </ProductName>
+    <Description>
+      Best Product2
+    </Description>
+  </Product>
+</Products>

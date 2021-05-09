@@ -17,7 +17,7 @@ namespace XMLValidation
         {
             XmlDocument doc = new XmlDocument();
             //doc.LoadXml(@"C:\Users\anders\KEA\SoftwareTesting\XML\XMLValidation\XMLValidation\Product.xml");
-            doc.Load(new StreamReader(@"C:\Users\anders\KEA\SoftwareTesting\XML\XMLValidation\XMLValidation\Product.xml"));
+            doc.Load(new StreamReader(@"C:\Users\anders\KEA\SoftwareTesting\XML\XMLValidation\XMLValidation\Products.xml"));
             string text = "";
             if (doc.DocumentElement != null)
             {
